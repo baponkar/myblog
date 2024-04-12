@@ -1,0 +1,25 @@
+:root {
+  --sidebar-bg-color: #f6f6f6;
+  --active-link-color: #000;
+  --text-color: #000;
+  --progress-bar-color: #000;
+  --lightbulb-color: black;
+}
+
+body.dark-mode {
+  --sidebar-bg-color: #23282d;
+  --active-link-color: #00d084;
+  --text-color: #fff;
+  --progress-bar-color: #00d084;
+  --lightbulb-color: white;
+}
+
+@media (max-width: 750px) {
+  :root {
+    --sidebar-bg-color: rgba(240, 240, 240, 0.95);
+  }
+
+  body.dark-mode {
+    --sidebar-bg-color: rgba(35, 40, 45, 0.95);
+  }
+}
