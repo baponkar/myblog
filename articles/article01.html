@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive iFrame</title>
+    <title>Diffeent types of motion of the Earth</title>
     <style>
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
             overflow: hidden;
+        }
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
         }
         iframe {
             position: absolute;
@@ -22,6 +27,8 @@
     </style>
 </head>
 <body>
-    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQI3Cd4sLJLrNpxaLQ-k-mQc3xksszEjA4kk9Pr4VpC3Acdwr3zVkAH0jC94TRDBb9dZAQ1Iyk0anpp/pub?embedded=true"></iframe>
+    <div class="iframe-container">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQI3Cd4sLJLrNpxaLQ-k-mQc3xksszEjA4kk9Pr4VpC3Acdwr3zVkAH0jC94TRDBb9dZAQ1Iyk0anpp/pub?embedded=true"></iframe>
+    </div>
 </body>
 </html>
